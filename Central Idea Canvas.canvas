@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"cafc25d2082df6b9","type":"group","x":-860,"y":320,"width":725,"height":260,"label":"Cards group"},
+		{"id":"5643166221efa148","type":"file","file":"_utilities/creativity.png","x":-960,"y":-220,"width":400,"height":227},
+		{"id":"f268db60907fd4af","type":"file","file":"2025/My first note.md","x":240,"y":-220,"width":400,"height":400},
+		{"id":"a2a56beb0ddbadb5","type":"text","text":"# Central Idea\n","x":-360,"y":-220,"width":405,"height":170},
+		{"id":"1ec28432ff774348","type":"text","text":"Card one","x":-840,"y":340,"width":250,"height":60},
+		{"id":"ed41cb70ce7fb5ad","type":"text","text":"Card two","x":-405,"y":340,"width":250,"height":60},
+		{"id":"7a427860c9acee7b","type":"text","text":"Card three","x":-590,"y":500,"width":250,"height":60},
+		{"id":"d970f6bdbe4368f3","type":"link","url":"https://www.youtube.com/watch?v=gafuqdKwD_U","x":240,"y":280,"width":640,"height":360},
+		{"id":"8a76c08d0358f3c6","x":-200,"y":29,"width":250,"height":60,"type":"text","text":"\nCreate a vault"},
+		{"id":"6ddf7933ec4a2239","x":-360,"y":-840,"width":400,"height":470,"type":"link","url":"https://help.obsidian.md/vault"}
+	],
+	"edges":[
+		{"id":"35ef8c013f38a19f","fromNode":"a2a56beb0ddbadb5","fromSide":"left","toNode":"5643166221efa148","toSide":"right"},
+		{"id":"b11434bb0646e3ca","fromNode":"a2a56beb0ddbadb5","fromSide":"right","toNode":"f268db60907fd4af","toSide":"left"},
+		{"id":"0e4e6bcf0b6332c2","fromNode":"a2a56beb0ddbadb5","fromSide":"bottom","toNode":"cafc25d2082df6b9","toSide":"right"},
+		{"id":"b7516d1cfc158a32","fromNode":"a2a56beb0ddbadb5","fromSide":"bottom","toNode":"d970f6bdbe4368f3","toSide":"left"},
+		{"id":"ce06b3a38ddbfc83","fromNode":"a2a56beb0ddbadb5","fromSide":"top","toNode":"6ddf7933ec4a2239","toSide":"bottom"}
+	]
+}
